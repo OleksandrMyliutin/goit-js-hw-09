@@ -48,11 +48,11 @@
     font-size: 14px;
     color: #2e2f42;
     opacity: 1;
-    /* Відображається за замовчуванням */
+
     transition: opacity 0.3s ease;
 }
 
-/* Зникає, коли поле у фокусі або містить текст */
+
 .input-container input:focus+.email-placeholder,
 .input-container input:not(:placeholder-shown)+.email-placeholder {
     opacity: 0;
