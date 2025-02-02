@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2-forms</title>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/main-CMnLhDeG.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/main-itRG79_F.css">
+    <script type="module" crossorigin src="/vanilla-app-template/assets/main-wIWGmOkB.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/main-Z43vGaXG.css">
   </head>
   <body>
     <header class="header">
@@ -37,17 +37,14 @@
     <main class="container-form">
       <div class="container">
         <form class="feedback-form" autocomplete="off">
-          <label>
-            Email
-            <input type="email" name="email" autofocus />
-          </label>
-          <label>
-            Message
-            <div class="textarea-container">
-              <textarea name="message" rows="8"></textarea>
-              <span class="type-area-text">Type area</span>
-            </div>
-          </label>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="8" required></textarea>
+
           <button type="submit">Submit</button>
         </form>
       </div>
