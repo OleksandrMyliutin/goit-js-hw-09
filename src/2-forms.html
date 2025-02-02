@@ -17,17 +17,14 @@
     <main class="container-form">
       <div class="container">
         <form class="feedback-form" autocomplete="off">
-          <label>
-            Email
-            <input type="email" name="email" autofocus />
-          </label>
-          <label>
-            Message
-            <div class="textarea-container">
-              <textarea name="message" rows="8"></textarea>
-              <span class="type-area-text">Type area</span>
-            </div>
-          </label>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="8" required></textarea>
+
           <button type="submit">Submit</button>
         </form>
       </div>

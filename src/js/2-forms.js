@@ -1,6 +1,16 @@
 const form = document.querySelector('form');
 const STORAGE_KEY = 'feedback-form-state';
 
+const emailInput = form.elements.email;
+
+emailInput.addEventListener("focus", () => {
+    emailInput.placeholder = "Type area";
+});
+
+emailInput.addEventListener("blur", () => {
+    emailInput.placeholder = "";
+});
+    
 const saveFormState = () => { 
     const formData = {
         email: form.elements.email.value.trim(),
