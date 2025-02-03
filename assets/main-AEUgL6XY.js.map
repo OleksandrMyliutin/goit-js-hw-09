@@ -1,1 +1,0 @@
-{"version":3,"mappings":";msDAAA,OAAO,yBAAgB,kCACvB,OAAO,sBAAa,EAAC","names":[],"ignoreList":[],"sources":["../../src/js/script.js"],"sourcesContent":["import('./1-gallery.js');\nimport('./2-form.js');"],"file":"assets/main-AEUgL6XY.js"}
